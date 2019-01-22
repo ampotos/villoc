@@ -5,7 +5,6 @@ find_package(DynamoRIO)
 if (NOT DynamoRIO_FOUND)
   message(FATAL_ERROR "DynamoRIO package required to build")
 endif(NOT DynamoRIO_FOUND)
-use_DynamoRIO_extension(villoc_tracer drutil)
 use_DynamoRIO_extension(villoc_tracer drwrap)
 use_DynamoRIO_extension(villoc_tracer drmgr)
 
